@@ -1,0 +1,174 @@
+{
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Work** Experience"
+    },
+    "hn": {
+      "title": "अनुभव",
+      "title_long_prefix": "मेरे",
+      "title_long": "**कार्य** अनुभव का सारांश"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "work",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/anivle.jpg",
+            "fa": "",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "09/01/2023",
+            "end": "12/12/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "**Android** Developer Intern",
+              "info": "Anivale Pvt Ltd",
+              "text": "<p>Worked on improving app functionality by fixing critical bugs, implementing a secure PIN feature, and developing calendar events.</p> <ul><li>Resolved critical bugs through team collaboration, enhancing user experience.</li><li>Designed a secure PIN feature using Kotlin, MVVM, Repository pattern, and RxJava/Coroutines.</li><li>Developed calendar events with Git/GitLab version control and XML layouts for a responsive UI.</li></ul>",
+              "tags": [
+                "Android",
+                "XML",
+                "GitHub",
+                "RESTful APIs",
+                "Room Database"
+              ]
+            },
+            "hn": {
+              "title": "**एंड्रॉइड** डेवलपर इंटर्न",
+              "info": "Anivale Pvt Ltd",
+              "text": "<p>ऐप कार्यक्षमता को बेहतर बनाने के लिए महत्वपूर्ण बग्स को ठीक किया, एक सुरक्षित पिन सुविधा लागू की और कैलेंडर इवेंट विकसित किए।</p> <ul><li>टीम सहयोग के माध्यम से महत्वपूर्ण बग्स को हल किया, जिससे उपयोगकर्ता अनुभव बेहतर हुआ।</li><li>कोटलिन, MVVM, रिपॉजिटरी पैटर्न, और RxJava/कोरूटीन का उपयोग करके एक सुरक्षित पिन सुविधा डिज़ाइन की।</li><li>Git/GitLab वर्जन कंट्रोल और XML लेआउट्स के साथ उत्तरदायी UI के लिए कैलेंडर इवेंट विकसित किए।</li></ul>",
+              "tags": [
+                "एंड्रॉइड",
+                "XML",
+                "GitHub",
+                "RESTful APIs",
+                "रूम डेटाबेस"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/ss.jpg",
+            "fa": "",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "12/01/2023",
+            "end": "05/12/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**Android** Developer Intern",
+              "info": "Stealth Startup",
+              "text": "<p>Developed key features to enhance user experience, including printing, multi-theme support, and real-time calendar integration.</p> <ul><li>Engineered a robust printing feature using Views and Canvas, enabling high-quality, customizable print outputs directly from the application.</li><li>Designed and implemented a dynamic multi-theme interface, allowing users to switch themes seamlessly.</li><li>Developed a local calendar system integrated with Firebase to display employee meetings and events in real-time, ensuring efficient scheduling and collaboration.</li></ul>",
+              "tags": ["Android", "Canvas", "Firebase", "Theming", "Printing"]
+            },
+            "hn": {
+              "title": "**एंड्रॉइड** डेवलपर इंटर्न",
+              "info": "स्टेल्थ स्टार्टअप",
+              "text": "<p>उपयोगकर्ता अनुभव को बेहतर बनाने के लिए प्रमुख फीचर्स विकसित किए, जिनमें प्रिंटिंग, मल्टी-थीम सपोर्ट, और रियल-टाइम कैलेंडर इंटीग्रेशन शामिल हैं।</p> <ul><li>व्यूज़ और कैनवास का उपयोग करके एक मजबूत प्रिंटिंग फीचर तैयार किया, जिससे एप्लिकेशन से सीधे उच्च-गुणवत्ता वाले, कस्टमाइज़ेबल प्रिंट आउट प्राप्त किए जा सकें।</li><li>डायनेमिक मल्टी-थीम इंटरफेस को डिज़ाइन और लागू किया, जिससे उपयोगकर्ता आसानी से थीम बदल सकें।</li><li>Firebase के साथ एक स्थानीय कैलेंडर सिस्टम विकसित किया, जिससे कर्मचारी बैठकों और घटनाओं को रियल-टाइम में प्रदर्शित किया जा सके, जिससे प्रभावी शेड्यूलिंग और सहयोग सुनिश्चित हुआ।</li></ul>",
+              "tags": ["एंड्रॉइड", "कैनवास", "Firebase", "थीमिंग", "प्रिंटिंग"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/the ass.jpg",
+            "fa": "",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "04/01/2024",
+            "end": "06/12/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**Back End** Developer Intern",
+              "info": "The Assigner · Internship",
+              "text": "<p>Designed and deployed a robust backend architecture using Node.js, Express, and MongoDB, following the MVC pattern with comprehensive error handling.</p> <ul><li>Deployed the backend on AWS EC2, leveraging Caddy for reverse proxy, routing, and SSL certificate management, ensuring seamless scalability and security.</li><li>Established a CI/CD pipeline for continuous deployment and maintained version control through efficient management of Git and GitHub repositories.</li></ul>",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "AWS",
+                "CI/CD",
+                "Git",
+                "GitHub"
+              ]
+            },
+            "hn": {
+              "title": "**बैकएंड** डेवलपर इंटर्न",
+              "info": "The Assigner · इंटर्नशिप",
+              "text": "<p>Node.js, Express और MongoDB का उपयोग करके एक मजबूत बैकएंड आर्किटेक्चर डिज़ाइन और तैनात किया, जिसमें MVC पैटर्न और व्यापक एरर हैंडलिंग शामिल था।</p> <ul><li>AWS EC2 पर बैकएंड को तैनात किया, जिसमें Caddy का उपयोग करके रिवर्स प्रॉक्सी, रूटिंग और SSL प्रमाणपत्र प्रबंधन सुनिश्चित किया, जिससे स्केलेबिलिटी और सुरक्षा बेहतर हुई।</li><li>निरंतर परिनियोजन के लिए CI/CD पाइपलाइन स्थापित की और Git तथा GitHub रिपॉजिटरी के कुशल प्रबंधन के माध्यम से संस्करण नियंत्रण बनाए रखा।</li></ul>",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "AWS",
+                "CI/CD",
+                "Git",
+                "GitHub"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/diracai_services_logo.jpg",
+            "fa": "",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "07/01/2024",
+            "end": "Continue"
+          },
+          "locales": {
+            "en": {
+              "title": "**Android** Developer",
+              "info": "DiracAI Private Limited",
+              "text": "<p>Developed key features including a custom onboarding library, secure payment gateway integration, real-time chat with WebSocket and FCM, deep linking, and media playback with ExoPlayer synchronized to a progress bar.</p> <ul><li>Enhanced background processes with WorkManager for file downloads and leveraged Flow API for real-time download progress updates.</li><li>Wrote unit tests and instrumentation tests using JUnit and Espresso to ensure app reliability and maintainability.</li></ul>",
+              "tags": [
+                "Android",
+                "State Management",
+                "API Integration",
+                "WebSocket",
+                "FCM",
+                "ExoPlayer",
+                "WorkManager",
+                "JUnit",
+                "Espresso"
+              ]
+            },
+            "hn": {
+              "title": "**एंड्रॉइड** डेवलपर",
+              "info": "DiracAI प्राइवेट लिमिटेड",
+              "text": "<p>कस्टम ऑनबोर्डिंग लाइब्रेरी, सुरक्षित पेमेंट गेटवे इंटीग्रेशन, WebSocket और FCM के साथ रियल-टाइम चैट, डीप लिंकिंग, और प्रोग्रेस बार के साथ सिंक्रोनाइज़ मीडिया प्लेबैक (ExoPlayer) जैसी प्रमुख विशेषताएँ विकसित कीं।</p> <ul><li>फाइल डाउनलोड के लिए WorkManager के साथ बैकग्राउंड प्रोसेस में सुधार किया और Flow API का उपयोग करके रियल-टाइम डाउनलोड प्रोग्रेस अपडेट को सक्षम किया।</li><li>JUnit और Espresso का उपयोग करके यूनिट टेस्ट और इंस्ट्रूमेंटेशन टेस्ट लिखे, जिससे ऐप की विश्वसनीयता और रखरखाव सुनिश्चित हुआ।</li></ul>",
+              "tags": [
+                "एंड्रॉइड",
+                "स्टेट मैनेजमेंट",
+                "API इंटीग्रेशन",
+                "WebSocket",
+                "FCM",
+                "ExoPlayer",
+                "WorkManager",
+                "JUnit",
+                "Espresso"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

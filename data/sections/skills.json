@@ -1,0 +1,483 @@
+{
+  "locales": {
+    "en": {
+      "title": "Skills",
+      "title_long_prefix": "Explore",
+      "title_long": "My **Skill Set**"
+    },
+    "hn": {
+      "title": "कौशल",
+      "title_long_prefix": "अन्वेषण करें",
+      "title_long": "मेरा **कौशल सेट**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "capabilities",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {},
+
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile-screen-button",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**App** Creation",
+              "text": "I can create apps using Kotlin and Java."
+            },
+            "hn": {
+              "title": "**एप्लिकेशन** निर्माण",
+              "text": "मैं कोटलिन और जावा का उपयोग करके ऐप बना सकता हूँ।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-tablet-screen-button",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**CMP** App Creation",
+              "text": "I can create Compose Multiplatform apps."
+            },
+            "hn": {
+              "title": "**सीएमपी** ऐप निर्माण",
+              "text": "मैं Compose Multiplatform ऐप्स बना सकता हूँ।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-window-restore",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "REST **APIs**",
+              "text": "I can build REST APIs using Node.js and Java."
+            },
+            "hn": {
+              "title": "REST **एपीआई**",
+              "text": "मैं Node.js और Java का उपयोग करके REST एपीआई बना सकता हूँ।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-table-columns",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Website** Development",
+              "text": "I can build websites using React."
+            },
+            "hn": {
+              "title": "**वेबसाइट** विकास",
+              "text": "मैं React का उपयोग करके वेबसाइट बना सकता हूँ।"
+            }
+          }
+        },
+
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Database** Management",
+              "text": "I can handle Room Database, MySQL, MongoDB, and PostgreSQL."
+            },
+            "hn": {
+              "title": "**डेटाबेस** प्रबंधन",
+              "text": "मैं Room Database, MySQL, MongoDB और PostgreSQL को संभाल सकता हूँ।"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "backend_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Backend" },
+        "hn": { "title": "बैकएंड" }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-node-js",
+            "faColors": { "bg": "#339933", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": {
+            "start": "01/15/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "Node.js",
+              "info": "Created Backend using node express and mongodb"
+            },
+            "hn": {
+              "title": "Node.js",
+              "info": "मैंने Node.js, Express और MongoDB का उपयोग करके बैकएंड विकसित किया।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-java",
+            "faColors": { "bg": "#007396", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": {
+            "start": "03/10/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "Java 11+",
+              "info": "Worked on Android apps and Spring Boot server using Java."
+            },
+            "hn": {
+              "title": "Java 11+",
+              "info": "जावा का उपयोग करके एंड्रॉइड ऐप और स्प्रिंग बूट सर्वर पर काम किया।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": "#4479A1", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": {
+            "start": "10/10/2020"
+          },
+          "locales": {
+            "en": {
+              "title": "SQL",
+              "info": "Worked with SQLite, MySQL, and PostgreSQL."
+            },
+            "hn": {
+              "title": "SQL",
+              "info": "SQLite, MySQL और PostgreSQL पर काम किया।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-server",
+            "faColors": { "bg": "#47A248", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": {
+            "start": "05/20/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "MongoDB",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-git",
+            "faColors": { "bg": "#F05032", "fill": "#111" }
+          },
+          "value": 95,
+          "dates": {
+            "start": "01/01/2021"
+          },
+          "locales": {
+            "en": {
+              "title": "Git",
+              "info": "Git push, pull, and branch merging."
+            },
+            "hn": {
+              "title": "Git",
+              "info": "Git push, pull और ब्रांच मर्जिंग।"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "front_end_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Frontend" },
+        "hn": { "title": "फ्रंटएंड" }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile-screen-button",
+            "faColors": { "bg": "#A4C639", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": {
+            "start": "09/01/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "Android",
+              "info": "Worked on 4+ apps with over 300K downloads."
+            },
+            "hn": {
+              "title": "एंड्रॉइड",
+              "info": "4+ ऐप्स पर काम किया, जिनके 300K से अधिक डाउनलोड हैं।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-file-code",
+            "faColors": { "bg": "#E34C26", "fill": "#EEE" }
+          },
+          "value": 80,
+          "dates": {
+            "start": "09/01/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "XML",
+              "info": "Designed UI in XML for different apps."
+            },
+            "hn": {
+              "title": "एक्सएमएल",
+              "info": "विभिन्न ऐप्स के लिए XML में UI डिज़ाइन किया।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "public/images/pictures/jpc.png",
+            "fa": "",
+            "faColors": { "bg": "#4285F4", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": {
+            "start": "09/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "Jetpack Compose",
+              "info": "Created UI in Jetpack Compose."
+            },
+            "hn": {
+              "title": "जेटपैक कम्पोज़",
+              "info": "Jetpack Compose में UI बनाया।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-k",
+            "faColors": { "bg": "#4285F4", "fill": "#EEE" }
+          },
+          "value": 80,
+          "dates": {
+            "start": "09/01/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "Kotlin",
+              "info": "Worked in Kotlin and Java."
+            },
+            "hn": {
+              "title": "कोटलिन",
+              "info": "कोटलिन और जावा में काम किया।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-html5",
+            "faColors": { "bg": "#E34F26", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": {
+            "start": "09/01/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "HTML5",
+              "info": "Created apps using HTML, CSS, and JavaScript."
+            },
+            "hn": {
+              "title": "HTML5",
+              "info": "HTML, CSS और JavaScript का उपयोग करके ऐप्स बनाए।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-css3",
+            "faColors": { "bg": "#1572B6", "fill": "#EEE" }
+          },
+          "value": 65,
+          "dates": {
+            "start": "01/15/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "CSS3",
+              "info": "Practiced CSS Grid, Flexbox, and much more."
+            },
+            "hn": {
+              "title": "CSS3",
+              "info": "CSS Grid, Flexbox और बहुत कुछ अभ्यास किया।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#F7DF1E", "fill": "#111" }
+          },
+          "value": 30,
+          "dates": {
+            "start": "03/10/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "JavaScript ES6+",
+              "info": "Learned JavaScript and its different functions."
+            },
+            "hn": {
+              "title": "जावास्क्रिप्ट ES6+",
+              "info": "जावास्क्रिप्ट और इसके विभिन्न फ़ंक्शंस सीखे।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-react",
+            "faColors": { "bg": "#61DAFB", "fill": "#111" }
+          },
+          "value": 40,
+          "dates": {
+            "start": "06/20/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "React",
+              "info": "Created React apps."
+            },
+            "hn": {
+              "title": "React",
+              "info": "React ऐप्स बनाए।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-bootstrap",
+            "faColors": { "bg": "#7952B3", "fill": "#EEE" }
+          },
+          "value": 20,
+          "dates": {
+            "start": "02/10/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "Bootstrap",
+              "info": "Used Bootstrap for responsive web design."
+            },
+            "hn": {
+              "title": "बूटस्ट्रैप",
+              "info": "उत्तरदायी वेब डिज़ाइन के लिए बूटस्ट्रैप का उपयोग किया।"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "languages",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Languages" },
+        "hn": { "title": "भाषाएँ" }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/flags/en.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "English",
+              "info": "Proficient in communication and writing.",
+              "tags": ["Proficient"]
+            },
+            "hn": {
+              "title": "अंग्रेज़ी",
+              "info": "संचार और लेखन में प्रवीण।",
+              "tags": ["प्रवीण"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/hn.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "Hindi",
+              "info": "Native speaker with excellent communication and writing skills.",
+              "tags": ["Native"]
+            },
+            "hn": {
+              "title": "हिंदी",
+              "info": "मूल वक्ता, जिसमें उत्कृष्ट संचार और लेखन कौशल हैं।",
+              "tags": ["मूल"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "locales": {
+    "en": {
+      "title": "Welcome!",
+      "title_menu": "About me",
+      "title_long_prefix": "Hello...",
+      "title_long": "I'm **Vibhav Kumar**"
+    },
+    "hn": {
+      "title": "स्वागत है!",
+      "title_menu": "मेरे बारे में",
+      "title_long_prefix": "नमस्ते...",
+      "title_long": "मैं **विभव कुमार** हूँ"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "contact_list",
+      "component": "ArticleGrid",
+      "config": {
+        "ignorePaddingTop": true,
+        "format": "inline"
+      },
+      "locales": {
+        "en": {},
+        "es": {},
+        "fr": {},
+        "ko": {}
+      },
+
+      "items": [
+        {
+          "value": "Giridih",
+          "links": [{ "href": "https://maps.app.goo.gl/c8GFpFRvcEmdETJa7" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-city",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "vibhav...@gmail.com",
+          "links": [{ "href": "mailto:vibhavkumarmishra00170@gmail.com" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "vibhav00",
+          "links": [{ "href": "https://github.com/Vibhav00" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-github",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "vibhav",
+          "links": [
+            { "href": "https://www.linkedin.com/in/vibhavkumargrd00170" }
+          ],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-linkedin",
+            "faColors": { "bg": null, "fill": null }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "short_description",
+      "component": "ArticleInfoBlock",
+      "config": {},
+      "locales": {
+        "en": { "title": "**A little bit** about me..." },
+        "hn": { "title": "**थोड़ा बहुत** मेरे बारे में..." }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/svg/logo.svg",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "text": "<p>👋Hello,I'm Vibhav,an<b>Android Developer</b>with<b>1.5+ years</b>of experience in building high-performance mobile apps using Kotlin and Jetpack Compose.</p><ul><li>Developed and optimized Android apps with<b>300K+ downloads</b>.</li><li>Integrated third-party APIs,Firebase,and secure authentication.</li><li>Implemented deep linking,real-time chat,and ExoPlayer-based media playback.</li><li>Designed a secure PIN system and optimized app performance using WorkManager & Flow API.</li><li>Engineered scalable backend solutions with Node.js and deployed them on AWS.</li></ul><p>Passionate about problem-solving and innovation.Let's build something impactful!🚀</p>"
+            },
+            "hn": {
+              "text": "<p>👋नमस्ते,मैं विभव हूँ,एक<b>Android डेवलपर</b>जिसे<b>1.5+ वर्षों</b>का अनुभव है,जहाँ मैंने Kotlin और Jetpack Compose का उपयोग करके उच्च-प्रदर्शन मोबाइल ऐप्स विकसित किए हैं।</p><ul><li><b>300K+ डाउनलोड्स</b>वाले Android ऐप्स विकसित और ऑप्टिमाइज़ किए।</li><li>थर्ड-पार्टी APIs, Firebase और सुरक्षित ऑथेंटिकेशन को एकीकृत किया।</li><li>डीप लिंकिंग,रियल-टाइम चैट और ExoPlayer-आधारित मीडिया प्लेबैक लागू किया।</li><li>सुरक्षित PIN प्रणाली डिज़ाइन की और WorkManager एवं Flow API के साथ ऐप प्रदर्शन को बेहतर बनाया।</li><li>Node.js के साथ स्केलेबल बैकएंड समाधानों को विकसित किया और उन्हें AWS पर डिप्लॉय किया।</li></ul><p>समस्या समाधान और नवाचार के प्रति जुनूनी।आइए कुछ प्रभावशाली बनाएं!🚀</p>"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "interests",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": { "title": "Professional **interests**" },
+        "hn": { "title": "पेशेवर **रुचियां**" }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-medium",
+            "faColors": null
+          },
+          "links": [{ "href": "https://medium.com/@vkb120" }],
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Writing Blogs",
+              "info": "Writing my research and understanding so that it can help others."
+            },
+            "hn": {
+              "title": "ब्लॉग लिखना",
+              "info": "अपने शोध और समझ को लिखना ताकि यह दूसरों की मदद कर सके।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": null
+          },
+          "links": [{ "href": "https://leetcode.com/vibhav_op_coder_1" }],
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Leetcode Coding ",
+              "info": "I am interested in solving the complex algo problems ."
+            },
+            "hn": {
+              "title": "लीटकोड कोडिंग",
+              "info": "मुझे जटिल एल्गोरिदमिक समस्याओं को हल करना पसंद है।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-camera-retro",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Photo Editing",
+              "info": "Enhancing photos through creative editing techniques."
+            },
+            "hn": {
+              "title": "फोटो एडिटिंग",
+              "info": "रचनात्मक संपादन तकनीकों के माध्यम से फ़ोटो को बेहतर बनाना।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-linkedin",
+            "faColors": null
+          },
+          "links": [
+            { "href": "https://www.linkedin.com/in/vibhavkumargrd00170" }
+          ],
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "LinkedIn Content Creator",
+              "info": "I create engaging and valuable content for LinkedIn."
+            },
+            "hn": {
+              "title": "लिंक्डइन कंटेंट क्रिएटर",
+              "info": "मैं लिंक्डइन के लिए रोचक और मूल्यवान सामग्री बनाता हूँ।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-youtube",
+            "faColors": null
+          },
+          "links": [{ "href": "https://www.youtube.com/@codingpotential8300" }],
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "YouTube",
+              "info": "Showcasing my projects and products."
+            },
+            "hn": {
+              "title": "यूट्यूब",
+              "info": "अपने प्रोजेक्ट्स और प्रोडक्ट्स का प्रदर्शन।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-user-tie",
+            "faColors": null
+          },
+          "links": [{ "href": "https://myportfollio-b219a.web.app" }],
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Old Portfolio",
+              "info": "Old is gold."
+            },
+            "hn": {
+              "title": "पुराना पोर्टफोलियो",
+              "info": "पुराना सोना होता है।"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

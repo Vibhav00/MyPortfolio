@@ -1,0 +1,119 @@
+{
+  "locales": {
+    "en": {
+      "title": "Awards",
+      "title_menu": "Achievements",
+      "title_long_prefix": "Here are my",
+      "title_long": "Career **Achievements**"
+    },
+    "hn": {
+      "title": "पुरस्कार",
+      "title_menu": "उपलब्धियां",
+      "title_long_prefix": "ये हैं मेरे",
+      "title_long": "करियर की **उपलब्धियां**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "certifications",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": { "title": "Certifications" },
+        "hn": { "title": "प्रमाणपत्र" }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/iit_k.jfif",
+            "fa": "",
+            "faColors": { "bg": "null", "fill": "null" }
+          },
+          "dates": {
+            "start": "07/01/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "https://www.linkedin.com/in/vibhavkumargrd00170/overlay/1711009171062/single-media-viewer/?profileId=ACoAADgk2l4BELT8BRmTjMJZBuhs_GV8NSlPtRw"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Data Structure and Algorithms** Using Java",
+              "text": "Certified by Indian Institute of Technology, Kharagpur in NPTEL with 82%."
+            },
+            "hn": {
+              "title": "**जावा का उपयोग करके डेटा संरचना और एल्गोरिदम**",
+              "text": "भारतीय प्रौद्योगिकी संस्थान, खड़गपुर द्वारा NPTEL में 82% अंकों के साथ प्रमाणित।"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/anivle.jpg",
+            "fa": "",
+            "faColors": { "bg": "#FFD700", "fill": "#111" }
+          },
+          "dates": {
+            "start": "12/05/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "https://www.linkedin.com/in/vibhavkumargrd00170/overlay/1711025700520/single-media-viewer/?profileId=ACoAADgk2l4BELT8BRmTjMJZBuhs_GV8NSlPtRw"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Android Development Internship",
+              "text": "Anivale Certification of Android Development"
+            },
+            "hn": {
+              "title": "एंड्रॉइड डेवलपमेंट इंटर्नशिप",
+              "text": "एंड्रॉइड डेवलपमेंट के लिए अनिवाले प्रमाणन"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "awards",
+      "component": "ArticleThread",
+      "config": {},
+      "locales": {
+        "en": { "title": "Awards" },
+        "hn": { "title": "पुरस्कार" }
+      },
+
+      "items": [
+        {
+          "dates": {
+            "start": "05/01/2021",
+            "end": null
+          },
+          "links": [
+            { "string": "more_info", "href": "https://clubexcel.co.in/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Coding Contest** – Awards",
+              "info": "Tech Innovator Magazine",
+              "text": "Secured first place in a college-level coding competition."
+            },
+            "hn": {
+              "title": "**कोडिंग प्रतियोगिता** – पुरस्कार",
+              "info": "टेक इनोवेटर मैगज़ीन",
+              "text": "कॉलेज स्तर की कोडिंग प्रतियोगिता में प्रथम स्थान प्राप्त किया।"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "locales": {
+    "en": {
+      "title": "Contact",
+      "title_long_prefix": "Don't hesitate to",
+      "title_long": "**Contact** Me"
+    },
+    "hn": {
+      "title": "संपर्क करें",
+      "title_long_prefix": "बिल्कुल संकोच न करें",
+      "title_long": "**मुझसे संपर्क करें**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "contact_form",
+      "component": "ArticleContactForm",
+      "config": {},
+      "locales": {
+        "en": { "title": "Send me a **message**" },
+        "hn": {
+          "title": "मुझे एक **संदेश** भेजें"
+        }
+      },
+
+      "items": null
+    },
+
+    {
+      "id": "contact_list",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": { "title": "Or if you **prefer**..." },
+        "hn": { "title": "या यदि आप **पसंद करें**..." }
+      },
+
+      "items": [
+        {
+          "value": "+919113175272",
+          "links": [{ "href": "tel:+919113175272" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-phone",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": { "title": "Phone" },
+            "hn": { "title": "फ़ोन" }
+          }
+        },
+
+        {
+          "value": "vibhav...com",
+          "links": [{ "href": "mailto:vibhavkumarmishra00170@gmail.com" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": { "title": "E-mail" },
+            "hn": { "title": "ईमेल" }
+          }
+        },
+
+        {
+          "value": "vibhav kumar",
+          "links": [
+            { "href": "https://www.linkedin.com/in/vibhavkumargrd00170" }
+          ],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-linkedin",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": { "title": "LinkedIn" },
+            "hn": { "title": "लिंक्डइन" }
+          }
+        },
+
+        {
+          "value": "vibhav 404 ",
+          "links": [{ "href": "https://www.instagram.com/vibhav_404" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-instagram",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": { "title": "Instagram" },
+            "hn": { "title": "इंस्टाग्राम" }
+          }
+        }
+      ]
+    }
+  ]
+}

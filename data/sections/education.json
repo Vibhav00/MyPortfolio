@@ -1,0 +1,56 @@
+{
+  "locales": {
+    "en": {
+      "title": "Education",
+      "title_long_prefix": "This is my",
+      "title_long": "**Educational** Background"
+    },
+    "hn": {
+      "title": "शिक्षा",
+      "title_long_prefix": "यह मेरी",
+      "title_long": "**शैक्षिक** पृष्ठभूमि"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "academic",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/nist.jfif",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "07/25/2020",
+            "end": "04/04/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**BTech** in Computer Science",
+              "info": "NIST University",
+              "text": "<p>Completed BTech from NIST University with a CGPA of 8.5 and learned:</p> <ul><li>Data Structures</li><li>Operating Systems</li><li>Databases</li></ul><p class='mt-3'>Core Member of Club Excel **Coding Club**</p> <ul><li>Organized coding contests</li><li>Guided juniors</li><li>Conducted Git & GitHub workshop</li></ul> <p class='mt-3'>Developed projects in Android, Web, Machine Learning, and Deep Learning.</p>",
+              "tags": [
+                "Android",
+                "Deep Learning",
+                "Data Structures",
+                "Algorithms"
+              ]
+            },
+            "hn": {
+              "title": "**बीटेक** कंप्यूटर साइंस में",
+              "info": "निस्ट यूनिवर्सिटी",
+              "text": "<p>निस्ट यूनिवर्सिटी से बीटेक पूरा किया, जहाँ मेरा सीजीपीए 8.5 था और मैंने सीखा:</p> <ul><li>डेटा संरचना</li><li>ऑपरेटिंग सिस्टम</li><li>डेटाबेस</li></ul><p class='mt-3'>क्लब एक्सेल **कोडिंग क्लब** का प्रमुख सदस्य</p> <ul><li>कोडिंग प्रतियोगिताएँ आयोजित कीं</li><li>जूनियर्स को मार्गदर्शन दिया</li><li>Git और GitHub कार्यशाला आयोजित की</li></ul> <p class='mt-3'>एंड्रॉइड, वेब, मशीन लर्निंग और डीप लर्निंग में प्रोजेक्ट बनाए।</p>",
+              "tags": ["एंड्रॉइड", "डीप लर्निंग", "डेटा संरचना", "एल्गोरिदम"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
