@@ -277,7 +277,7 @@
         },
         {
           "icon": {
-            "img": "public/images/pictures/jpc.png",
+            "img": "images/pictures/jpc.png",
             "fa": "",
             "faColors": { "bg": "#4285F4", "fill": "#EEE" }
           },

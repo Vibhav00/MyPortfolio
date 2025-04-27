@@ -131,7 +131,7 @@
           },
           "dates": {
             "start": "07/01/2024",
-            "end": "Continue"
+            "end": "04/15/2025"
           },
           "locales": {
             "en": {
@@ -165,6 +165,31 @@
                 "JUnit",
                 "Espresso"
               ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/zomato.png",
+            "fa": "",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "04/28/2025",
+            "end": "Continue"
+          },
+          "locales": {
+            "en": {
+              "title": "**Android** Developer",
+              "info": "Zomato Limited",
+              "text": "<p>Just started a new chapter as an <strong>Android Developer</strong> at Zomato Limited. Excited to contribute to meaningful projects, learn from experienced minds, and build innovative features that reach millions of users.</p><p>This marks the beginning of a journey filled with code, creativity, and continuous growth.</p>",
+              "tags": ["Android"]
+            },
+            "hn": {
+              "title": "**एंड्रॉइड** डेवलपर",
+              "info": "जोमैटो  लिमिटेड",
+              "text": "<p><strong>एंड्रॉइड डेवलपर</strong> के रूप में Zomato Limited में एक नए अध्याय की शुरुआत की है। प्रभावशाली प्रोजेक्ट्स पर काम करने, अनुभवी लोगों से सीखने, और लाखों उपयोगकर्ताओं तक पहुँचने वाले फीचर्स बनाने को लेकर उत्साहित हूँ।</p><p>यह यात्रा कोड, क्रिएटिविटी और निरंतर विकास से भरी होगी।</p>",
+              "tags": ["एंड्रॉइड"]
             }
           }
         }

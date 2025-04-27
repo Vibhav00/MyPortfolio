@@ -40,15 +40,6 @@
           }
         },
         {
-          "value": "vibhav...@gmail.com",
-          "links": [{ "href": "mailto:vibhavkumarmishra00170@gmail.com" }],
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-envelope",
-            "faColors": { "bg": null, "fill": null }
-          }
-        },
-        {
           "value": "vibhav00",
           "links": [{ "href": "https://github.com/Vibhav00" }],
           "icon": {
@@ -136,7 +127,6 @@
             "fa": "fa-solid fa-code",
             "faColors": null
           },
-          "links": [{ "href": "https://leetcode.com/vibhav_op_coder_1" }],
           "value": null,
           "locales": {
             "en": {
@@ -194,7 +184,6 @@
             "fa": "fa-brands fa-youtube",
             "faColors": null
           },
-          "links": [{ "href": "https://www.youtube.com/@codingpotential8300" }],
           "value": null,
           "locales": {
             "en": {
@@ -204,25 +193,6 @@
             "hn": {
               "title": "यूट्यूब",
               "info": "अपने प्रोजेक्ट्स और प्रोडक्ट्स का प्रदर्शन।"
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-user-tie",
-            "faColors": null
-          },
-          "links": [{ "href": "https://myportfollio-b219a.web.app" }],
-          "value": null,
-          "locales": {
-            "en": {
-              "title": "Old Portfolio",
-              "info": "Old is gold."
-            },
-            "hn": {
-              "title": "पुराना पोर्टफोलियो",
-              "info": "पुराना सोना होता है।"
             }
           }
         }

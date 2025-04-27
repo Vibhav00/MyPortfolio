@@ -40,20 +40,6 @@
 
       "items": [
         {
-          "value": "+919113175272",
-          "links": [{ "href": "tel:+919113175272" }],
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-phone",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "locales": {
-            "en": { "title": "Phone" },
-            "hn": { "title": "फ़ोन" }
-          }
-        },
-
-        {
           "value": "vibhav...com",
           "links": [{ "href": "mailto:vibhavkumarmishra00170@gmail.com" }],
           "icon": {

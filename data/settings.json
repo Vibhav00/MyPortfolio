@@ -23,7 +23,7 @@
 
   "status": {
     "visible": true,
-    "available": true,
+    "available": false,
 
     "locales": {
       "en": { "message": "Available for Android Dev!" },

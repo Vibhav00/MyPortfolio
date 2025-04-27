@@ -128,6 +128,18 @@ testtimonials
 
 
 
+
+ {
+          "value": "vibhav...@gmail.com",
+          "links": [{ "href": "mailto:vibhavkumarmishra00170@gmail.com" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+
+
 education 
  {
           "icon": {
@@ -257,5 +269,18 @@ education
               "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
               "tags": ["Flutter", "이메일", "소통"]
             }
+          }
+        },
+         {
+          "value": "+91455454",
+          "links": [{ "href": "tel:+91911387662" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-phone",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": { "title": "Phone" },
+            "hn": { "title": "फ़ोन" }
           }
         },
