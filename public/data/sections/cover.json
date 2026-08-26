@@ -13,6 +13,7 @@
       "title_long": "मैं **विभव कुमार** हूँ"
     }
   },
+
   "articles": [
     {
       "id": "contact_list",
@@ -27,6 +28,7 @@
         "fr": {},
         "ko": {}
       },
+
       "items": [
         {
           "value": "Giridih",
@@ -62,59 +64,42 @@
         },
         {
           "value": "vibhav00",
-          "links": [
-            {
-              "href": "https://github.com/Vibhav00"
-            }
-          ],
+          "links": [{ "href": "https://github.com/Vibhav00" }],
           "icon": {
             "img": null,
             "fa": "fa-brands fa-github",
-            "faColors": {
-              "bg": null,
-              "fill": null
-            }
+            "faColors": { "bg": null, "fill": null }
           }
         },
         {
           "value": "vibhav",
           "links": [
-            {
-              "href": "https://www.linkedin.com/in/vibhavkumargrd00170"
-            }
+            { "href": "https://www.linkedin.com/in/vibhavkumargrd00170" }
           ],
           "icon": {
             "img": null,
             "fa": "fa-brands fa-linkedin",
-            "faColors": {
-              "bg": null,
-              "fill": null
-            }
+            "faColors": { "bg": null, "fill": null }
           }
         }
       ]
     },
+
     {
       "id": "short_description",
       "component": "ArticleInfoBlock",
       "config": {},
       "locales": {
-        "en": {
-          "title": "**A little bit** about me..."
-        },
-        "hn": {
-          "title": "**थोड़ा बहुत** मेरे बारे में..."
-        }
+        "en": { "title": "**A little bit** about me..." },
+        "hn": { "title": "**थोड़ा बहुत** मेरे बारे में..." }
       },
+
       "items": [
         {
           "icon": {
             "img": "images/svg/logo.svg",
             "fa": null,
-            "faColors": {
-              "bg": null,
-              "fill": null
-            }
+            "faColors": { "bg": null, "fill": null }
           },
           "locales": {
             "en": {
@@ -127,6 +112,7 @@
         }
       ]
     },
+
     {
       "id": "interests",
       "component": "ArticleGrid",
@@ -134,13 +120,10 @@
         "format": "grid"
       },
       "locales": {
-        "en": {
-          "title": "Professional **interests**"
-        },
-        "hn": {
-          "title": "पेशेवर **रुचियां**"
-        }
+        "en": { "title": "Professional **interests**" },
+        "hn": { "title": "पेशेवर **रुचियां**" }
       },
+
       "items": [
         {
           "icon": {
@@ -148,11 +131,7 @@
             "fa": "fa-brands fa-medium",
             "faColors": null
           },
-          "links": [
-            {
-              "href": "https://medium.com/@vkb120"
-            }
-          ],
+          "links": [{ "href": "https://medium.com/@vkb120" }],
           "value": null,
           "locales": {
             "en": {
@@ -213,9 +192,7 @@
             "faColors": null
           },
           "links": [
-            {
-              "href": "https://www.linkedin.com/in/vibhavkumargrd00170"
-            }
+            { "href": "https://www.linkedin.com/in/vibhavkumargrd00170" }
           ],
           "value": null,
           "locales": {

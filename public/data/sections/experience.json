@@ -11,20 +11,21 @@
       "title_long": "**कार्य** अनुभव का सारांश"
     }
   },
-
   "articles": [
     {
       "id": "work",
       "component": "ArticleTimeline",
       "config": {},
       "locales": {},
-
       "items": [
         {
           "icon": {
             "img": "images/pictures/anivle.jpg",
             "fa": "",
-            "faColors": { "bg": "#111", "fill": "#EEE" }
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
           },
           "dates": {
             "start": "09/01/2023",
@@ -61,7 +62,10 @@
           "icon": {
             "img": "images/pictures/ss.jpg",
             "fa": "",
-            "faColors": { "bg": "#111", "fill": "#EEE" }
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
           },
           "dates": {
             "start": "12/01/2023",
@@ -72,13 +76,25 @@
               "title": "**Android** Developer Intern",
               "info": "Stealth Startup",
               "text": "<p>Developed key features to enhance user experience, including printing, multi-theme support, and real-time calendar integration.</p> <ul><li>Engineered a robust printing feature using Views and Canvas, enabling high-quality, customizable print outputs directly from the application.</li><li>Designed and implemented a dynamic multi-theme interface, allowing users to switch themes seamlessly.</li><li>Developed a local calendar system integrated with Firebase to display employee meetings and events in real-time, ensuring efficient scheduling and collaboration.</li></ul>",
-              "tags": ["Android", "Canvas", "Firebase", "Theming", "Printing"]
+              "tags": [
+                "Android",
+                "Canvas",
+                "Firebase",
+                "Theming",
+                "Printing"
+              ]
             },
             "hn": {
               "title": "**एंड्रॉइड** डेवलपर इंटर्न",
               "info": "स्टेल्थ स्टार्टअप",
               "text": "<p>उपयोगकर्ता अनुभव को बेहतर बनाने के लिए प्रमुख फीचर्स विकसित किए, जिनमें प्रिंटिंग, मल्टी-थीम सपोर्ट, और रियल-टाइम कैलेंडर इंटीग्रेशन शामिल हैं।</p> <ul><li>व्यूज़ और कैनवास का उपयोग करके एक मजबूत प्रिंटिंग फीचर तैयार किया, जिससे एप्लिकेशन से सीधे उच्च-गुणवत्ता वाले, कस्टमाइज़ेबल प्रिंट आउट प्राप्त किए जा सकें।</li><li>डायनेमिक मल्टी-थीम इंटरफेस को डिज़ाइन और लागू किया, जिससे उपयोगकर्ता आसानी से थीम बदल सकें।</li><li>Firebase के साथ एक स्थानीय कैलेंडर सिस्टम विकसित किया, जिससे कर्मचारी बैठकों और घटनाओं को रियल-टाइम में प्रदर्शित किया जा सके, जिससे प्रभावी शेड्यूलिंग और सहयोग सुनिश्चित हुआ।</li></ul>",
-              "tags": ["एंड्रॉइड", "कैनवास", "Firebase", "थीमिंग", "प्रिंटिंग"]
+              "tags": [
+                "एंड्रॉइड",
+                "कैनवास",
+                "Firebase",
+                "थीमिंग",
+                "प्रिंटिंग"
+              ]
             }
           }
         },
@@ -86,7 +102,10 @@
           "icon": {
             "img": "images/pictures/the ass.jpg",
             "fa": "",
-            "faColors": { "bg": "#111", "fill": "#EEE" }
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
           },
           "dates": {
             "start": "04/01/2024",
@@ -127,11 +146,14 @@
           "icon": {
             "img": "images/pictures/diracai_services_logo.jpg",
             "fa": "",
-            "faColors": { "bg": "#111", "fill": "#EEE" }
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
           },
           "dates": {
             "start": "07/01/2024",
-            "end": "Continue"
+            "end": "04/15/2025"
           },
           "locales": {
             "en": {
@@ -164,6 +186,48 @@
                 "WorkManager",
                 "JUnit",
                 "Espresso"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/zomato.png",
+            "fa": "",
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
+          },
+          "dates": {
+            "start": "04/28/2025",
+            "end": "05/01/2026"
+          },
+          "locales": {
+            "en": {
+              "title": "**Software Development Engineer** (Android)",
+              "info": "Zomato Limited | Apr 2025 – May 2026",
+              "text": "<p>Worked as a <strong>Software Development Engineer (Android)</strong> at Zomato, building and shipping features for a large-scale Android application with <strong>10M+ downloads</strong>.</p><ul><li>Developed and shipped merchant-facing features including <strong>Thumbnail Change, Cash Deposits, and Cuisine Management</strong>, improving restaurant partner workflows.</li><li>Revamped the <strong>Order History SDUI</strong> experience with adaptive layouts, advanced filtering, and search capabilities.</li><li>Contributed to presentation-layer development for backend API integrations, NCV components, and loading states.</li><li>Worked extensively with <strong>RecyclerView</strong> to build scalable and performant Android experiences.</li><li>Collaborated with cross-functional teams to deliver production-ready features and improve the overall user experience.</li></ul>",
+              "tags": [
+                "Android",
+                "Kotlin",
+                "MVVM",
+                "SDUI",
+                "RecyclerView",
+                "API Integration"
+              ]
+            },
+            "hn": {
+              "title": "**सॉफ्टवेयर डेवलपमेंट इंजीनियर** (Android)",
+              "info": "Zomato Limited | अप्रैल 2025 – मई 2026",
+              "text": "<p>Zomato में <strong>Software Development Engineer (Android)</strong> के रूप में काम किया और <strong>10M+ downloads</strong> वाले बड़े Android application के लिए features develop और ship किए।</p><ul><li><strong>Thumbnail Change, Cash Deposits और Cuisine Management</strong> जैसे merchant-facing features develop किए।</li><li><strong>Order History SDUI</strong> experience को adaptive layouts, advanced filtering और search capabilities के साथ बेहतर बनाया।</li><li>Backend API integrations, NCV components और loading states के presentation layer पर काम किया।</li><li>Scalable और performant Android experiences बनाने के लिए <strong>RecyclerView</strong> का extensively उपयोग किया।</li><li>Production-ready features deliver करने और user experience बेहतर बनाने के लिए cross-functional teams के साथ collaborate किया।</li></ul>",
+              "tags": [
+                "एंड्रॉइड",
+                "कोटलिन",
+                "MVVM",
+                "SDUI",
+                "RecyclerView",
+                "API Integration"
               ]
             }
           }
