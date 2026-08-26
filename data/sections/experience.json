@@ -1,187 +1,238 @@
 {
-    "locales": {
-        "en": {
-            "title": "Experience",
-            "title_long_prefix": "Summary of my",
-            "title_long": "**Work** Experience"
-        },
-
-        "es": {
-            "title": "Experiencia",
-            "title_long_prefix": "Resumen de mi",
-            "title_long": "Experiencia **Laboral**"
-        },
-
-        "fr": {
-            "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
-        },
-
-        "ko": {
-            "title": "경험",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**직업적** 경험"
-        }
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Work** Experience"
     },
-
-    "articles": [
+    "hn": {
+      "title": "अनुभव",
+      "title_long_prefix": "मेरे",
+      "title_long": "**कार्य** अनुभव का सारांश"
+    }
+  },
+  "articles": [
+    {
+      "id": "work",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
         {
-            "id": "work",
-            "component": "ArticleTimeline",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/place-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "03/01/2016",
-                        "end": "06/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend** Developer",
-                            "info": "Sapphire Studio",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "tags": ["PHP", "MySQL", "Laravel"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 개발자",
-                            "info": "사파이어 스튜디오",
-                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/place-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Ingénieur **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**풀스택** 엔지니어",
-                            "info": "코세라",
-                            "text": "Coursera 웹사이트를 개선하기 위해 새로운 기능을 추가하고 사용자 경험을 최적화했습니다. 원활한 기능을 보장하기 위해 프론트엔드와 백엔드 기술을 모두 활용했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/place-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "12/01/2020",
-                        "end": "11/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend** Engineer",
-                            "info": "Adobe Inc.",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "tags": ["Java", "AWS", "REST", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Ingénieur **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 엔지니어",
-                            "info": "어도비 주식회사",
-                            "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        }
-                    }
-                }
-            ]
+          "icon": {
+            "img": "images/pictures/anivle.jpg",
+            "fa": "",
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
+          },
+          "dates": {
+            "start": "09/01/2023",
+            "end": "12/12/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "**Android** Developer Intern",
+              "info": "Anivale Pvt Ltd",
+              "text": "<p>Worked on improving app functionality by fixing critical bugs, implementing a secure PIN feature, and developing calendar events.</p> <ul><li>Resolved critical bugs through team collaboration, enhancing user experience.</li><li>Designed a secure PIN feature using Kotlin, MVVM, Repository pattern, and RxJava/Coroutines.</li><li>Developed calendar events with Git/GitLab version control and XML layouts for a responsive UI.</li></ul>",
+              "tags": [
+                "Android",
+                "XML",
+                "GitHub",
+                "RESTful APIs",
+                "Room Database"
+              ]
+            },
+            "hn": {
+              "title": "**एंड्रॉइड** डेवलपर इंटर्न",
+              "info": "Anivale Pvt Ltd",
+              "text": "<p>ऐप कार्यक्षमता को बेहतर बनाने के लिए महत्वपूर्ण बग्स को ठीक किया, एक सुरक्षित पिन सुविधा लागू की और कैलेंडर इवेंट विकसित किए।</p> <ul><li>टीम सहयोग के माध्यम से महत्वपूर्ण बग्स को हल किया, जिससे उपयोगकर्ता अनुभव बेहतर हुआ।</li><li>कोटलिन, MVVM, रिपॉजिटरी पैटर्न, और RxJava/कोरूटीन का उपयोग करके एक सुरक्षित पिन सुविधा डिज़ाइन की।</li><li>Git/GitLab वर्जन कंट्रोल और XML लेआउट्स के साथ उत्तरदायी UI के लिए कैलेंडर इवेंट विकसित किए।</li></ul>",
+              "tags": [
+                "एंड्रॉइड",
+                "XML",
+                "GitHub",
+                "RESTful APIs",
+                "रूम डेटाबेस"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/ss.jpg",
+            "fa": "",
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
+          },
+          "dates": {
+            "start": "12/01/2023",
+            "end": "05/12/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**Android** Developer Intern",
+              "info": "Stealth Startup",
+              "text": "<p>Developed key features to enhance user experience, including printing, multi-theme support, and real-time calendar integration.</p> <ul><li>Engineered a robust printing feature using Views and Canvas, enabling high-quality, customizable print outputs directly from the application.</li><li>Designed and implemented a dynamic multi-theme interface, allowing users to switch themes seamlessly.</li><li>Developed a local calendar system integrated with Firebase to display employee meetings and events in real-time, ensuring efficient scheduling and collaboration.</li></ul>",
+              "tags": [
+                "Android",
+                "Canvas",
+                "Firebase",
+                "Theming",
+                "Printing"
+              ]
+            },
+            "hn": {
+              "title": "**एंड्रॉइड** डेवलपर इंटर्न",
+              "info": "स्टेल्थ स्टार्टअप",
+              "text": "<p>उपयोगकर्ता अनुभव को बेहतर बनाने के लिए प्रमुख फीचर्स विकसित किए, जिनमें प्रिंटिंग, मल्टी-थीम सपोर्ट, और रियल-टाइम कैलेंडर इंटीग्रेशन शामिल हैं।</p> <ul><li>व्यूज़ और कैनवास का उपयोग करके एक मजबूत प्रिंटिंग फीचर तैयार किया, जिससे एप्लिकेशन से सीधे उच्च-गुणवत्ता वाले, कस्टमाइज़ेबल प्रिंट आउट प्राप्त किए जा सकें।</li><li>डायनेमिक मल्टी-थीम इंटरफेस को डिज़ाइन और लागू किया, जिससे उपयोगकर्ता आसानी से थीम बदल सकें।</li><li>Firebase के साथ एक स्थानीय कैलेंडर सिस्टम विकसित किया, जिससे कर्मचारी बैठकों और घटनाओं को रियल-टाइम में प्रदर्शित किया जा सके, जिससे प्रभावी शेड्यूलिंग और सहयोग सुनिश्चित हुआ।</li></ul>",
+              "tags": [
+                "एंड्रॉइड",
+                "कैनवास",
+                "Firebase",
+                "थीमिंग",
+                "प्रिंटिंग"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/the ass.jpg",
+            "fa": "",
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
+          },
+          "dates": {
+            "start": "04/01/2024",
+            "end": "06/12/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**Back End** Developer Intern",
+              "info": "The Assigner · Internship",
+              "text": "<p>Designed and deployed a robust backend architecture using Node.js, Express, and MongoDB, following the MVC pattern with comprehensive error handling.</p> <ul><li>Deployed the backend on AWS EC2, leveraging Caddy for reverse proxy, routing, and SSL certificate management, ensuring seamless scalability and security.</li><li>Established a CI/CD pipeline for continuous deployment and maintained version control through efficient management of Git and GitHub repositories.</li></ul>",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "AWS",
+                "CI/CD",
+                "Git",
+                "GitHub"
+              ]
+            },
+            "hn": {
+              "title": "**बैकएंड** डेवलपर इंटर्न",
+              "info": "The Assigner · इंटर्नशिप",
+              "text": "<p>Node.js, Express और MongoDB का उपयोग करके एक मजबूत बैकएंड आर्किटेक्चर डिज़ाइन और तैनात किया, जिसमें MVC पैटर्न और व्यापक एरर हैंडलिंग शामिल था।</p> <ul><li>AWS EC2 पर बैकएंड को तैनात किया, जिसमें Caddy का उपयोग करके रिवर्स प्रॉक्सी, रूटिंग और SSL प्रमाणपत्र प्रबंधन सुनिश्चित किया, जिससे स्केलेबिलिटी और सुरक्षा बेहतर हुई।</li><li>निरंतर परिनियोजन के लिए CI/CD पाइपलाइन स्थापित की और Git तथा GitHub रिपॉजिटरी के कुशल प्रबंधन के माध्यम से संस्करण नियंत्रण बनाए रखा।</li></ul>",
+              "tags": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "AWS",
+                "CI/CD",
+                "Git",
+                "GitHub"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/diracai_services_logo.jpg",
+            "fa": "",
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
+          },
+          "dates": {
+            "start": "07/01/2024",
+            "end": "04/15/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "**Android** Developer",
+              "info": "DiracAI Private Limited",
+              "text": "<p>Developed key features including a custom onboarding library, secure payment gateway integration, real-time chat with WebSocket and FCM, deep linking, and media playback with ExoPlayer synchronized to a progress bar.</p> <ul><li>Enhanced background processes with WorkManager for file downloads and leveraged Flow API for real-time download progress updates.</li><li>Wrote unit tests and instrumentation tests using JUnit and Espresso to ensure app reliability and maintainability.</li></ul>",
+              "tags": [
+                "Android",
+                "State Management",
+                "API Integration",
+                "WebSocket",
+                "FCM",
+                "ExoPlayer",
+                "WorkManager",
+                "JUnit",
+                "Espresso"
+              ]
+            },
+            "hn": {
+              "title": "**एंड्रॉइड** डेवलपर",
+              "info": "DiracAI प्राइवेट लिमिटेड",
+              "text": "<p>कस्टम ऑनबोर्डिंग लाइब्रेरी, सुरक्षित पेमेंट गेटवे इंटीग्रेशन, WebSocket और FCM के साथ रियल-टाइम चैट, डीप लिंकिंग, और प्रोग्रेस बार के साथ सिंक्रोनाइज़ मीडिया प्लेबैक (ExoPlayer) जैसी प्रमुख विशेषताएँ विकसित कीं।</p> <ul><li>फाइल डाउनलोड के लिए WorkManager के साथ बैकग्राउंड प्रोसेस में सुधार किया और Flow API का उपयोग करके रियल-टाइम डाउनलोड प्रोग्रेस अपडेट को सक्षम किया।</li><li>JUnit और Espresso का उपयोग करके यूनिट टेस्ट और इंस्ट्रूमेंटेशन टेस्ट लिखे, जिससे ऐप की विश्वसनीयता और रखरखाव सुनिश्चित हुआ।</li></ul>",
+              "tags": [
+                "एंड्रॉइड",
+                "स्टेट मैनेजमेंट",
+                "API इंटीग्रेशन",
+                "WebSocket",
+                "FCM",
+                "ExoPlayer",
+                "WorkManager",
+                "JUnit",
+                "Espresso"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/zomato.png",
+            "fa": "",
+            "faColors": {
+              "bg": "#111",
+              "fill": "#EEE"
+            }
+          },
+          "dates": {
+            "start": "04/28/2025",
+            "end": "05/01/2026"
+          },
+          "locales": {
+            "en": {
+              "title": "**Software Development Engineer** (Android)",
+              "info": "Zomato Limited | Apr 2025 – May 2026",
+              "text": "<p>Worked as a <strong>Software Development Engineer (Android)</strong> at Zomato, building and shipping features for a large-scale Android application with <strong>10M+ downloads</strong>.</p><ul><li>Developed and shipped merchant-facing features including <strong>Thumbnail Change, Cash Deposits, and Cuisine Management</strong>, improving restaurant partner workflows.</li><li>Revamped the <strong>Order History SDUI</strong> experience with adaptive layouts, advanced filtering, and search capabilities.</li><li>Contributed to presentation-layer development for backend API integrations, NCV components, and loading states.</li><li>Worked extensively with <strong>RecyclerView</strong> to build scalable and performant Android experiences.</li><li>Collaborated with cross-functional teams to deliver production-ready features and improve the overall user experience.</li></ul>",
+              "tags": [
+                "Android",
+                "Kotlin",
+                "MVVM",
+                "SDUI",
+                "RecyclerView",
+                "API Integration"
+              ]
+            },
+            "hn": {
+              "title": "**सॉफ्टवेयर डेवलपमेंट इंजीनियर** (Android)",
+              "info": "Zomato Limited | अप्रैल 2025 – मई 2026",
+              "text": "<p>Zomato में <strong>Software Development Engineer (Android)</strong> के रूप में काम किया और <strong>10M+ downloads</strong> वाले बड़े Android application के लिए features develop और ship किए।</p><ul><li><strong>Thumbnail Change, Cash Deposits और Cuisine Management</strong> जैसे merchant-facing features develop किए।</li><li><strong>Order History SDUI</strong> experience को adaptive layouts, advanced filtering और search capabilities के साथ बेहतर बनाया।</li><li>Backend API integrations, NCV components और loading states के presentation layer पर काम किया।</li><li>Scalable और performant Android experiences बनाने के लिए <strong>RecyclerView</strong> का extensively उपयोग किया।</li><li>Production-ready features deliver करने और user experience बेहतर बनाने के लिए cross-functional teams के साथ collaborate किया।</li></ul>",
+              "tags": [
+                "एंड्रॉइड",
+                "कोटलिन",
+                "MVVM",
+                "SDUI",
+                "RecyclerView",
+                "API Integration"
+              ]
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

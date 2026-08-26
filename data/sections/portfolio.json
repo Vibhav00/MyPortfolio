@@ -1,479 +1,590 @@
 {
-    "locales": {
-        "en": {
-            "title": "Portfolio",
-            "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
-        },
-
-        "es": {
-            "title": "Portafolio",
-            "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
-        },
-
-        "fr": {
-            "title": "Portfolio",
-            "title_long_prefix": "Découvrez",
-            "title_long": "Mon **Portfolio**"
-        },
-
-        "ko": {
-            "title": "포트폴리오",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**포트폴리오**입니다"
-        }
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
     },
+    "hn": {
+      "title": "पोर्टफोलियो",
+      "title_long_prefix": "देखें",
+      "title_long": "मेरा **पोर्टफोलियो**"
+    }
+  },
 
-    "articles": [
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+
+      "categories": [
         {
-            "id": "portfolio",
-            "component": "ArticlePortfolio",
-            "config": {},
-            "locales": {},
-
-            "categories": [
-                {
-                    "id": "apps",
-                    "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
-                    }
-                },
-                {
-                    "id": "websites",
-                    "locales": {
-                        "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
-                        "ko": {"singular": "웹사이트", "plural": "웹"}
-                    }
-                },
-                {
-                    "id": "utilities",
-                    "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
-                    }
-                }
-            ],
-
-            "items": [
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
-                        "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "title": "MailM8",
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "title": "MailM8",
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "title": "MailM8",
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "title": "Stackers",
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "title": "Stackers",
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "title": "Stackers",
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
-                    }
-                }
-            ]
+          "id": "product",
+          "locales": {
+            "en": { "singular": "Product", "plural": "products" },
+            "hn": { "singular": "उत्पाद", "plural": "उत्पाद" }
+          }
+        },
+        {
+          "id": "project",
+          "locales": {
+            "en": { "singular": "Project", "plural": "Projects" },
+            "hn": { "singular": "परियोजना", "plural": "परियोजनाएँ" }
+          }
+        },
+        {
+          "id": "library",
+          "locales": {
+            "en": { "singular": "Library", "plural": "Libraries" },
+            "hn": { "singular": "लाइब्रेरी", "plural": "लाइब्रेरीज़" }
+          }
         }
-    ]
+      ],
+
+      "items": [
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/BookApnahAndroidApp"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/bookApnahAa.jpg"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Book Apnah App",
+              "text": "A beautiful bookstore app built with Jetpack Compose, following Clean Architecture principles for scalability and maintainability.",
+              "tags": [
+                "Jetpack Compose",
+                "Clean Architecture",
+                "MVVM",
+                "Dagger Hilt",
+                "Android",
+                "Kotlin",
+                "State Management",
+                "UI/UX"
+              ]
+            },
+            "hn": {
+              "title": "बुक अपना ऐप",
+              "text": "Jetpack Compose से बना एक सुंदर बुकस्टोर ऐप, जो स्केलेबिलिटी और मेंटेनबिलिटी के लिए क्लीन आर्किटेक्चर के सिद्धांतों का पालन करता है।",
+              "tags": [
+                "Jetpack Compose",
+                "क्लीन आर्किटेक्चर",
+                "MVVM",
+                "Dagger Hilt",
+                "एंड्रॉइड",
+                "Kotlin",
+                "स्टेट मैनेजमेंट",
+                "UI/UX"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "images/pictures/fingerprint.jpg",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/FingerprintRecognitionUsingCnn"
+            }
+          ],
+
+          "locales": {
+            "en": {
+              "title": "Fingerprint Recognizer App",
+              "text": "A full-stack fingerprint recognition app using CNN, Flask, HTML, CSS, and JavaScript for secure biometric authentication.",
+              "tags": [
+                "Fingerprint Recognition",
+                "CNN",
+                "Flask",
+                "Machine Learning",
+                "Biometrics",
+                "Full Stack",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Python",
+                "Security"
+              ]
+            },
+            "hn": {
+              "title": "फिंगरप्रिंट पहचानकर्ता ऐप",
+              "text": "CNN, Flask, HTML, CSS और JavaScript का उपयोग करके बनाया गया एक फुल-स्टैक फिंगरप्रिंट पहचान ऐप, जो सुरक्षित बायोमेट्रिक प्रमाणीकरण प्रदान करता है।",
+              "tags": [
+                "फिंगरप्रिंट पहचान",
+                "CNN",
+                "Flask",
+                "मशीन लर्निंग",
+                "बायोमेट्रिक्स",
+                "फुल स्टैक",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Python",
+                "सुरक्षा"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/BookApnahBackend"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "aspectRatio": "1:1",
+              "images": ["images/pictures/backend.jpg"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Book Apnah Backend",
+              "text": "An online book store backend built using Node.js, providing secure and scalable API services.",
+              "tags": [
+                "Node.js",
+                "Backend",
+                "REST API",
+                "MongoDB",
+                "Express.js",
+                "Book Store",
+                "Full Stack",
+                "Scalable"
+              ]
+            },
+            "hn": {
+              "title": "बुक अपना बैकएंड",
+              "text": "Node.js का उपयोग करके बनाया गया एक ऑनलाइन बुक स्टोर बैकएंड, जो सुरक्षित और स्केलेबल API सेवाएँ प्रदान करता है।",
+              "tags": [
+                "Node.js",
+                "बैकएंड",
+                "REST API",
+                "MongoDB",
+                "Express.js",
+                "बुक स्टोर",
+                "फुल स्टैक",
+                "स्केलेबल"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "images/pictures/cih.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/CosmosInHand"
+            }
+          ],
+
+          "locales": {
+            "en": {
+              "title": "Cosmon In Hand App",
+              "text": "An app built using MVVM, Retrofit, and Room, integrating NASA API for space-related data.",
+              "tags": ["MVVM", "Retrofit", "Room", "NASA API", "XML", "Android"]
+            },
+            "hn": {
+              "title": "कॉसमोन इन हैंड ऐप",
+              "text": "MVVM, Retrofit और Room का उपयोग करके बनाया गया एक ऐप, जो NASA API के साथ स्पेस से संबंधित डेटा एकत्र करता है।",
+              "tags": [
+                "MVVM",
+                "Retrofit",
+                "Room",
+                "NASA API",
+                "XML",
+                "एंड्रॉइड"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "images/pictures/lm.webp",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/LaunchModes"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": "https://www.youtube.com/watch?v=wA-X0kbzldQ",
+            "screenshots": {
+              "aspectRatio": "1:1",
+              "images": ["images/pictures/lm.webp"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "LaunchModes",
+              "text": "Explore Android Launch Modes 🚀: Understand `Standard`, `SingleTop`, `SingleTask`, and `SingleInstance` behaviors with hands-on demos.",
+              "tags": [
+                "Android",
+                "Launch Modes",
+                "Activity",
+                "Standard",
+                "SingleTop",
+                "SingleTask",
+                "SingleInstance"
+              ]
+            },
+            "hn": {
+              "title": "लॉन्च मोड्स",
+              "text": "एंड्रॉइड लॉन्च मोड्स 🚀 को एक्सप्लोर करें: `Standard`, `SingleTop`, `SingleTask`, और `SingleInstance` के व्यवहार को हैंड्स-ऑन डेमो के साथ समझें।",
+              "tags": [
+                "एंड्रॉइड",
+                "लॉन्च मोड्स",
+                "एक्टिविटी",
+                "स्टैंडर्ड",
+                "सिंगलटॉप",
+                "सिंगलटास्क",
+                "सिंगलइंस्टेंस"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/MinMax"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "aspectRatio": "9:16",
+              "images": ["images/pictures/tictactoe.jpg"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Tic Tac Toe AI",
+              "text": "A game of Tic Tac Toe using the Min-Max algorithm.",
+              "tags": [
+                "Game",
+                "AI",
+                "Min-Max Algorithm",
+                "Artificial Intelligence",
+                "Tic Tac Toe"
+              ]
+            },
+            "hn": {
+              "title": "टिक टैक टो एआई",
+              "text": "मिन-मैक्स एल्गोरिदम का उपयोग करके बनाया गया टिक टैक टो गेम।",
+              "tags": [
+                "गेम",
+                "एआई",
+                "मिन-मैक्स एल्गोरिदम",
+                "कृत्रिम बुद्धिमत्ता"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/DiaPreSvm"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "aspectRatio": "4:3",
+              "images": ["images/pictures/dia1.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Diabetes Prediction App",
+              "text": "A full-stack Diabetes Prediction App using SVM.",
+              "tags": [
+                "Machine Learning",
+                "SVM",
+                "AI",
+                "Healthcare",
+                "Full-Stack"
+              ]
+            },
+            "hn": {
+              "title": "डायबिटीज प्रेडिक्शन ऐप",
+              "text": "एसवीएम का उपयोग करके बनाया गया एक फुल-स्टैक डायबिटीज प्रेडिक्शन ऐप।",
+              "tags": [
+                "मशीन लर्निंग",
+                "एसवीएम",
+                "एआई",
+                "स्वास्थ्य",
+                "फुल-स्टैक"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/Pokedex"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "aspectRatio": "9:16",
+              "images": ["images/pictures/pokedex.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Pokedex App",
+              "text": "An app built with Jetpack Compose, MVVM, Dagger Hilt, and Retrofit.",
+              "tags": [
+                "Android",
+                "Jetpack Compose",
+                "MVVM",
+                "Dagger Hilt",
+                "Retrofit",
+                "API"
+              ]
+            },
+            "hn": {
+              "title": "पोकेडेक्स ऐप",
+              "text": "जेटपैक कंपोज, MVVM, डैगर हिल्ट और रेट्रोफिट के साथ बनाया गया एक ऐप।",
+              "tags": [
+                "एंड्रॉइड",
+                "जेटपैक कंपोज",
+                "MVVM",
+                "डैगर हिल्ट",
+                "रेट्रोफिट",
+                "API"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "project",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/JetPack_NotesApp"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "aspectRatio": "9:16",
+              "images": ["images/pictures/notesapp.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Jetpack Notes App",
+              "text": "An app built with Jetpack Compose, MVVM, Dagger Hilt, and Room Database.",
+              "tags": [
+                "Android",
+                "Jetpack Compose",
+                "MVVM",
+                "Dagger Hilt",
+                "Room Database",
+                "Note-Taking"
+              ]
+            },
+            "hn": {
+              "title": "जेटपैक नोट्स ऐप",
+              "text": "जेटपैक कंपोज, MVVM, डैगर हिल्ट और रूम डेटाबेस के साथ बनाया गया एक ऐप।",
+              "tags": [
+                "एंड्रॉइड",
+                "जेटपैक कंपोज",
+                "MVVM",
+                "डैगर हिल्ट",
+                "रूम डेटाबेस",
+                "नोट-टेकिंग"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "library",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-book-open-reader",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/awesometoast"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "aspectRatio": "4:3",
+              "images": ["images/pictures/awesome.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Awesome Toast Library",
+              "text": "Awesome Toast - A stylish and customizable Kotlin Toast library for Android.",
+              "tags": [
+                "Android",
+                "Kotlin",
+                "Toast",
+                "UI",
+                "Library",
+                "Customization"
+              ]
+            },
+            "hn": {
+              "title": "ऑसम टोस्ट लाइब्रेरी",
+              "text": "ऑसम टोस्ट - एंड्रॉइड के लिए एक स्टाइलिश और अनुकूलन योग्य कोटलिन टोस्ट लाइब्रेरी।",
+              "tags": [
+                "एंड्रॉइड",
+                "कोटलिन",
+                "टोस्ट",
+                "UI",
+                "लाइब्रेरी",
+                "कस्टमाइज़ेशन"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "product",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-bars-progress",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vibhav00/PasswordManager"
+            },
+            {
+              "faIcon": "fa-brands fa-google-play",
+              "href": "https://github.com/Vibhav00/PasswordManager/releases/tag/v2.0.0"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": "https://www.youtube.com/watch?v=Tpqd4zp0XQA",
+            "screenshots": {
+              "aspectRatio": "4:3",
+              "images": ["images/pictures/Pm.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Password Manager App",
+              "text": "Password Manager App: Secure. Simple. Smart.",
+              "tags": [
+                "Android",
+                "Security",
+                "Encryption",
+                "Password Manager",
+                "Kotlin",
+                "Room Database"
+              ]
+            },
+            "hn": {
+              "title": "पासवर्ड मैनेजर ऐप",
+              "text": "पासवर्ड मैनेजर ऐप: सुरक्षित, सरल और स्मार्ट।",
+              "tags": [
+                "एंड्रॉइड",
+                "सुरक्षा",
+                "एन्क्रिप्शन",
+                "पासवर्ड मैनेजर",
+                "कोटलिन",
+                "रूम डेटाबेस"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
